@@ -656,7 +656,7 @@
             },
             "vertices": [
               {
-                "x": 800,
+                "x": 730,
                 "y": 70
               }
             ]
@@ -704,8 +704,8 @@
             },
             "vertices": [
               {
-                "x": 810,
-                "y": 170
+                "x": 730,
+                "y": 160
               }
             ]
           },
@@ -1094,6 +1094,38 @@
               {
                 "x": 200,
                 "y": 400
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Generic Trust Boundary"
+            ],
+            "id": "73aebba3-7b76-42e1-8073-84b6ce1de7e3",
+            "source": {
+              "x": 770,
+              "y": 20
+            },
+            "target": {
+              "x": 770,
+              "y": 440
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 240
               }
             ]
           }

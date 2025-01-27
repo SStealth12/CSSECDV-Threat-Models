@@ -130,7 +130,7 @@
             "data": {
               "type": "tm.Store",
               "name": "SQL Database",
-              "description": "",
+              "description": "An SQL database is a relational database that uses Structured Query Language (SQL) for storing, managing, and querying data.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
@@ -296,7 +296,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Web Application",
-              "description": "",
+              "description": "A web application is a software application that runs on a web server and is accessed through a web browser.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
@@ -443,7 +443,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Browser Client",
-              "description": "",
+              "description": "A browser client is a software application that enables users to access and interact with web content and applications. It sends requests to web servers, renders web pages, and manages user sessions and cookies.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
@@ -609,7 +609,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Authorization \nProvider",
-              "description": "",
+              "description": "An authorization provider is a service that determines whether a user or system has permission to perform a specific action or access particular resources.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
@@ -638,10 +638,17 @@
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
-                "elevationOfPrivilege": 1
+                "elevationOfPrivilege": 2
               }
             },
-            "zIndex": 4
+            "zIndex": 4,
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -750,7 +757,7 @@
             "data": {
               "type": "tm.Process",
               "name": "LDAP",
-              "description": "",
+              "description": "LDAP is a protocol used for accessing and managing directory services. It is commonly used for authenticating and managing users and groups in organizations.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,

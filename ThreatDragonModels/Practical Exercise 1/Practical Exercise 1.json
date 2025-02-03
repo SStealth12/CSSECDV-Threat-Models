@@ -899,7 +899,7 @@
         "cells": [
           {
             "position": {
-              "x": 200,
+              "x": 210,
               "y": 240
             },
             "size": {
@@ -907,6 +907,9 @@
               "height": 101.33333333333331
             },
             "attrs": {
+              "text": {
+                "text": "Admin Web Browser"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -915,6 +918,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -998,23 +1002,15 @@
               ]
             },
             "id": "365f2e5a-cdf4-4666-90c9-98e17a79677d",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Admin Web Browser",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ],

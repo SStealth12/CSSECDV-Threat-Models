@@ -899,8 +899,60 @@
         "cells": [
           {
             "position": {
+              "x": 175,
+              "y": 210.39583333333331
+            },
+            "size": {
+              "width": 260,
+              "height": 121.875
+            },
+            "attrs": {
+              "headerText": {
+                "text": "The perimeter firewall"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "c466f5db-0913-4472-b279-7b53211836ed",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "The perimeter firewall",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 760,
+              "y": 186.95833333333331
+            },
+            "size": {
+              "width": 360,
+              "height": 168.75
+            },
+            "attrs": {
+              "headerText": {
+                "text": "The perimeter firewall"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "61d2e3c2-6b9e-46a3-aa05-d3abc607d879",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "The perimeter firewall",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "zIndex": -1
+          },
+          {
+            "position": {
               "x": 210,
-              "y": 240
+              "y": 220.66666666666666
             },
             "size": {
               "width": 190,
@@ -1012,6 +1064,269 @@
               "providesAuthentication": false,
               "threats": []
             }
+          },
+          {
+            "position": {
+              "x": 870,
+              "y": 201.33333333333331
+            },
+            "size": {
+              "width": 140,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "Node.js Server \nwith RESTful API"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d20f8834-7e7b-4a23-b7a8-15dfa52ca7b8"
+                },
+                {
+                  "group": "right",
+                  "id": "c43ac5d5-5803-4228-bcd6-441c81a30883"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9768a456-48d8-48e6-a903-a69036986be7"
+                },
+                {
+                  "group": "left",
+                  "id": "6fc413dc-15c1-472d-9f3f-a78fa1a7b631"
+                }
+              ]
+            },
+            "id": "8c49d936-0a3a-4763-8995-de29b605d509",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Node.js Server \nwith RESTful API",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin Login",
+              "description": "The administrator logs in to the system.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Admin Login"
+            ],
+            "id": "8026a46f-33b1-464a-925d-a056e5517d0c",
+            "source": {
+              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
+            },
+            "target": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Invalid Admin Credentials",
+              "description": "If the administrator’s login credentials are invalid, display an error message",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Invalid Admin Credentials"
+            ],
+            "id": "a034ae5d-5cd8-45ba-b3e5-545951126d1f",
+            "source": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "target": {
+              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Render the Admin Dashboard",
+              "description": "The application renders the administrator dashboard.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Render the Admin Dashboard"
+            ],
+            "id": "5e74655e-3de0-4a47-9495-0780a89856b1",
+            "source": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "target": {
+              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 370
+              }
+            ]
           }
         ],
         "description": "This STRIDE Diagram houses Part 1, Scenario 2 of Practical Exercise 1"

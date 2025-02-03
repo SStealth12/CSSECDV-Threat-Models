@@ -1329,9 +1329,201 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Student Voter\nEthereum Account",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Student Voter\nEthereum Account"
+            ],
+            "id": "a98fb030-c35c-45dc-8fb4-5bf6b1798e4a",
+            "source": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "target": {
+              "cell": "b1115682-8d37-41cb-a101-c531398cfbb9"
+            },
+            "vertices": [
+              {
+                "x": 870,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return Credentials",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Return Credentials"
+            ],
+            "id": "c7b95f10-7eb4-487a-91b8-6c7b58204a33",
+            "source": {
+              "cell": "b1115682-8d37-41cb-a101-c531398cfbb9"
+            },
+            "target": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "vertices": [
+              {
+                "x": 1030,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Wait and\nGet Response",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Wait and\nGet Response"
+            ],
+            "id": "034c2145-bc54-4023-bebc-76236d49b827",
+            "source": {
+              "cell": "22b888cd-4552-4c61-84da-008d8f13ab46"
+            },
+            "target": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "vertices": [
+              {
+                "x": 900,
+                "y": 450
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Call and Execute\nSmart Contract",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Call and Execute\nSmart Contract"
+            ],
+            "id": "f24e7fd5-50b5-4052-a3d3-807408d4d1c9",
+            "source": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "target": {
+              "cell": "22b888cd-4552-4c61-84da-008d8f13ab46"
+            },
+            "vertices": [
+              {
+                "x": 1020,
+                "y": 450
+              }
+            ]
+          },
+          {
             "position": {
               "x": 865,
-              "y": 29.000000000000085
+              "y": -60.999999999999915
             },
             "size": {
               "width": 190,
@@ -1454,7 +1646,7 @@
           {
             "position": {
               "x": 870,
-              "y": 458
+              "y": 518
             },
             "size": {
               "width": 180,

@@ -1544,6 +1544,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1627,7 +1628,6 @@
               ]
             },
             "id": "b1115682-8d37-41cb-a101-c531398cfbb9",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Student Voter Information",
@@ -1667,6 +1667,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1750,7 +1751,6 @@
               ]
             },
             "id": "22b888cd-4552-4c61-84da-008d8f13ab46",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Ethereum Network",

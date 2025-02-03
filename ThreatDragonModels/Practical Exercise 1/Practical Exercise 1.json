@@ -1798,8 +1798,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "5b4a532e-5e01-4e87-ab4d-19fbc21539be",
             "zIndex": -1,
+            "id": "5b4a532e-5e01-4e87-ab4d-19fbc21539be",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1819,8 +1819,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "fa85253d-02ff-4d78-8b7b-a2baad5f7ec9",
             "zIndex": -1,
+            "id": "fa85253d-02ff-4d78-8b7b-a2baad5f7ec9",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1840,8 +1840,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "aa2fa0fd-68ad-4056-ab61-bed7af7545a9",
             "zIndex": -1,
+            "id": "aa2fa0fd-68ad-4056-ab61-bed7af7545a9",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1871,6 +1871,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -1954,7 +1955,6 @@
               ]
             },
             "id": "b204358f-f9cb-4814-8024-9eb53ae9b6f8",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
@@ -1987,6 +1987,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2070,7 +2071,6 @@
               ]
             },
             "id": "515cf6ff-041a-4944-8ce1-3f2fbd57ef85",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Node JS Server\nwith RESTFUL API",
@@ -2289,6 +2289,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -2372,7 +2373,6 @@
               ]
             },
             "id": "1dbc800f-1130-41ff-83a7-664768b4ad7a",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Student Voter Information",

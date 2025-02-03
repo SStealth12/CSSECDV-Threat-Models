@@ -884,9 +884,49 @@
           }
         ],
         "description": "This STRIDE Diagram houses Part 1, Scenario 1 of Practical Exercise 1"
+      },
+      {
+        "id": 1,
+        "title": "Part 1, Scenario 2",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0",
+        "cells": [],
+        "description": "This STRIDE Diagram houses Part 1, Scenario 2 of Practical Exercise 1"
+      },
+      {
+        "id": 2,
+        "title": "Part 1, Scenario 3",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0",
+        "cells": [],
+        "description": "This STRIDE Diagram houses Part 1, Scenario 3 of Practical Exercise 1"
+      },
+      {
+        "id": 3,
+        "title": "Part 1, Scenario 4",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0",
+        "cells": [],
+        "description": "This STRIDE Diagram houses Part 1, Scenario 4 of Practical Exercise 1"
+      },
+      {
+        "id": 4,
+        "title": "Part 1, Scenario 5",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0",
+        "cells": [],
+        "description": "This STRIDE Diagram houses Part 1, Scenario 5 of Practical Exercise 1"
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 5,
     "reviewer": "Miguel Francis M. Estañol, Christian A. Dela Peña",
     "threatTop": 0
   }

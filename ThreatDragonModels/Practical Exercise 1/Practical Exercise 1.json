@@ -1786,7 +1786,609 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.3.0",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 77.66666666666667,
+              "y": 285.0000000000001
+            },
+            "size": {
+              "width": 234.66666666666666,
+              "height": 110
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "5b4a532e-5e01-4e87-ab4d-19fbc21539be",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 820,
+              "y": 228.90625
+            },
+            "size": {
+              "width": 410,
+              "height": 192.1875
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "fa85253d-02ff-4d78-8b7b-a2baad5f7ec9",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 905,
+              "y": -71.75
+            },
+            "size": {
+              "width": 240,
+              "height": 112.5
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "aa2fa0fd-68ad-4056-ab61-bed7af7545a9",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 120,
+              "y": 300.0000000000001
+            },
+            "size": {
+              "width": 150,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Admin"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "403267a9-63d5-4219-892c-541814783bfb"
+                },
+                {
+                  "group": "right",
+                  "id": "abea360f-e0ab-4c1d-8a4b-a85c172a653d"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a4bf8b3b-f28b-45c0-af83-de64b60f83f8"
+                },
+                {
+                  "group": "left",
+                  "id": "b5e6aa97-5709-42a3-b890-bcf0a96667e1"
+                }
+              ]
+            },
+            "id": "b204358f-f9cb-4814-8024-9eb53ae9b6f8",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Admin",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 950,
+              "y": 250
+            },
+            "size": {
+              "width": 150,
+              "height": 150
+            },
+            "attrs": {
+              "text": {
+                "text": "Node JS Server\nwith RESTFUL API"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "32acb082-2db0-487d-bfbf-2ccae53b6cf8"
+                },
+                {
+                  "group": "right",
+                  "id": "e1c2bf8f-89ac-475f-8279-9cc72ba0c17f"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9c7aa16c-33c8-4b6e-a228-7f14ba07ad17"
+                },
+                {
+                  "group": "left",
+                  "id": "93ddfedd-ea5f-47a8-bb34-bb8dd0282797"
+                }
+              ]
+            },
+            "id": "515cf6ff-041a-4944-8ce1-3f2fbd57ef85",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Node JS Server\nwith RESTFUL API",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Register a candidate",
+              "description": "If the administrator intends to register a single candidate, proceed, else load candidates’ information\nfrom a .CSV file to the application",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Register a candidate"
+            ],
+            "id": "916a5c5d-752f-43de-af40-a0ff3d89a11d",
+            "source": {
+              "cell": "b204358f-f9cb-4814-8024-9eb53ae9b6f8"
+            },
+            "target": {
+              "cell": "515cf6ff-041a-4944-8ce1-3f2fbd57ef85"
+            },
+            "vertices": [
+              {
+                "x": 600,
+                "y": 230
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Load candidate's information",
+              "description": "If the administrator intends to register a single candidate, proceed, else load candidates’ information\nfrom a .CSV file to the application",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Load candidate's information"
+            ],
+            "id": "dc0e0c3f-8afa-4033-a79b-fc0d257891e3",
+            "source": {
+              "cell": "b204358f-f9cb-4814-8024-9eb53ae9b6f8"
+            },
+            "target": {
+              "cell": "515cf6ff-041a-4944-8ce1-3f2fbd57ef85"
+            },
+            "vertices": [
+              {
+                "x": 590,
+                "y": 420
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": " Write candidate info to MongoDB",
+              "description": "The system writes all the candidates’ information to MongoDB",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              " Write candidate info to MongoDB"
+            ],
+            "id": "406a2572-31a7-405b-b102-68a5e9862027",
+            "source": {
+              "cell": "515cf6ff-041a-4944-8ce1-3f2fbd57ef85"
+            },
+            "target": {
+              "cell": "1dbc800f-1130-41ff-83a7-664768b4ad7a"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin fills up the candidate registration form",
+              "description": "The administrator fills up the candidate registration form",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Admin fills up the candidate registration form"
+            ],
+            "id": "80316ea6-e3c9-4aa3-a938-094f8ead36d2",
+            "source": {
+              "cell": "b204358f-f9cb-4814-8024-9eb53ae9b6f8"
+            },
+            "target": {
+              "cell": "515cf6ff-041a-4944-8ce1-3f2fbd57ef85"
+            }
+          },
+          {
+            "position": {
+              "x": 940,
+              "y": -58
+            },
+            "size": {
+              "width": 170,
+              "height": 85
+            },
+            "attrs": {
+              "text": {
+                "text": "Student Voter Information"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0a9ab429-d610-4812-84d2-b7c80e2dcbfa"
+                },
+                {
+                  "group": "right",
+                  "id": "d358924c-53e9-4b91-9b34-3cf627590a9b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ffdfbb5d-748a-4084-8b04-e75ba867d1aa"
+                },
+                {
+                  "group": "left",
+                  "id": "dbb7f7ac-ed16-4d91-8608-976f66179e7d"
+                }
+              ]
+            },
+            "id": "1dbc800f-1130-41ff-83a7-664768b4ad7a",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Store",
+              "name": "Student Voter Information",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          }
+        ],
         "description": "This STRIDE Diagram houses Part 1, Scenario 4 of Practical Exercise 1"
       },
       {

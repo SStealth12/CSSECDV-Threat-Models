@@ -1,0 +1,27 @@
+{
+  "version": "2.3.0",
+  "summary": {
+    "title": "Practical Exercise 1",
+    "owner": "Miguel Francis M. Estañol, Christian A. Dela Peña",
+    "description": "This project houses the diagrams for Practical Exercise 1 by Group 11 CSSECDV S11",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Part 1",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0",
+        "cells": [],
+        "description": "This STRIDE Diagram houses Part 1 of Practical Exercise 1"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Miguel Francis M. Estañol, Christian A. Dela Peña",
+    "threatTop": 0
+  }
+}

@@ -33,8 +33,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "448df2a4-9d48-4a92-a84f-d4dd507a86e9",
             "zIndex": -1,
+            "id": "448df2a4-9d48-4a92-a84f-d4dd507a86e9",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "The perimeter firewall",
@@ -59,8 +59,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "186c8785-4679-499a-85b5-de09c57994b0",
             "zIndex": -1,
+            "id": "186c8785-4679-499a-85b5-de09c57994b0",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "The perimeter firewall.",
@@ -68,42 +68,6 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
-          },
-          {
-            "shape": "edge",
-            "attrs": {
-              "line": {
-                "targetMarker": {
-                  "name": "block",
-                  "width": 12,
-                  "height": 8
-                }
-              }
-            },
-            "id": "065431c4-f04b-468f-808d-4d4b9ab6a857",
-            "zIndex": 0,
-            "source": {
-              "cell": "270a201c-0c24-42d5-b3e7-baba9bc665d3",
-              "port": "832f7f52-fad3-4ae3-93aa-10378d2d7e6f"
-            },
-            "target": {
-              "cell": "ff112f81-28cf-4c36-b454-39f093d0e210",
-              "port": "327966cb-73f6-4c7c-bad7-4a21ae7d0a0b"
-            },
-            "data": {
-              "type": "tm.Flow",
-              "name": "Invalid Credentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "vertices": []
           },
           {
             "position": {
@@ -823,6 +787,102 @@
               {
                 "x": 540,
                 "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Invalid Credentials ",
+              "description": "If the credentials entered are not valid, do not allow the voter to proceed and go back to step 1, else proceed\nto step 3.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Invalid Credentials "
+            ],
+            "id": "1df8d41d-bc86-48cb-8114-cbfdc389acac",
+            "source": {
+              "cell": "270a201c-0c24-42d5-b3e7-baba9bc665d3"
+            },
+            "target": {
+              "cell": "ff112f81-28cf-4c36-b454-39f093d0e210"
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": 550
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Render the voter dashboard",
+              "description": "The application renders the voter dashboard.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Render the voter dashboard"
+            ],
+            "id": "a4a8a8d9-2da4-49ec-8328-881d6f65febe",
+            "source": {
+              "cell": "270a201c-0c24-42d5-b3e7-baba9bc665d3"
+            },
+            "target": {
+              "cell": "ff112f81-28cf-4c36-b454-39f093d0e210"
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 600
               }
             ]
           }

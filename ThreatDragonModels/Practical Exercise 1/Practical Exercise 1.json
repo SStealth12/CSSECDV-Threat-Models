@@ -2292,7 +2292,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": " Write candidate info to MongoDB",
+              "name": " Write Candidate \nInformantion",
               "description": "The system writes all the candidates’ information to MongoDB",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2304,7 +2304,7 @@
               "threats": []
             },
             "labels": [
-              " Write candidate info to MongoDB"
+              " Write Candidate \nInformantion"
             ],
             "id": "406a2572-31a7-405b-b102-68a5e9862027",
             "source": {
@@ -2312,48 +2312,6 @@
             },
             "target": {
               "cell": "1dbc800f-1130-41ff-83a7-664768b4ad7a"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Admin fills up the candidate registration form",
-              "description": "The administrator fills up the candidate registration form",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Admin fills up the candidate registration form"
-            ],
-            "id": "80316ea6-e3c9-4aa3-a938-094f8ead36d2",
-            "source": {
-              "cell": "b204358f-f9cb-4814-8024-9eb53ae9b6f8"
-            },
-            "target": {
-              "cell": "515cf6ff-041a-4944-8ce1-3f2fbd57ef85"
             }
           },
           {
@@ -2367,7 +2325,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Student Voter Information"
+                "text": "Candidate Information"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -2466,7 +2424,7 @@
             "id": "1dbc800f-1130-41ff-83a7-664768b4ad7a",
             "data": {
               "type": "tm.Store",
-              "name": "Student Voter Information",
+              "name": "Candidate Information",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",

@@ -736,7 +736,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Admin Web Browser"
+                "text": "Election Administrator\nWeb Browser"
               },
               "body": {
                 "stroke": "#333333",
@@ -832,7 +832,7 @@
             "id": "365f2e5a-cdf4-4666-90c9-98e17a79677d",
             "data": {
               "type": "tm.Actor",
-              "name": "Admin Web Browser",
+              "name": "Election Administrator\nWeb Browser",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1049,108 +1049,7 @@
             "target": {
               "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
             },
-            "vertices": [
-              {
-                "x": 650,
-                "y": 340
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Render the Admin Dashboard",
-              "description": "The application renders the administrator dashboard.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Render the Admin Dashboard"
-            ],
-            "id": "5e74655e-3de0-4a47-9495-0780a89856b1",
-            "source": {
-              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
-            },
-            "target": {
-              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
-            },
-            "vertices": [
-              {
-                "x": 650,
-                "y": 390
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Student Voter\nEthereum Account",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Student Voter\nEthereum Account"
-            ],
-            "id": "a98fb030-c35c-45dc-8fb4-5bf6b1798e4a",
-            "source": {
-              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
-            },
-            "target": {
-              "cell": "b1115682-8d37-41cb-a101-c531398cfbb9"
-            },
-            "vertices": [
-              {
-                "x": 870,
-                "y": 130
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1220,7 +1119,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Wait and\nGet Response",
+              "name": "Election Administrator\nEthereum Account",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1232,19 +1131,19 @@
               "threats": []
             },
             "labels": [
-              "Wait and\nGet Response"
+              "Election Administrator\nEthereum Account"
             ],
-            "id": "034c2145-bc54-4023-bebc-76236d49b827",
+            "id": "a98fb030-c35c-45dc-8fb4-5bf6b1798e4a",
             "source": {
-              "cell": "22b888cd-4552-4c61-84da-008d8f13ab46"
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
             },
             "target": {
-              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+              "cell": "b1115682-8d37-41cb-a101-c531398cfbb9"
             },
             "vertices": [
               {
-                "x": 900,
-                "y": 450
+                "x": 870,
+                "y": 130
               }
             ]
           },
@@ -1268,8 +1167,8 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Call and Execute\nSmart Contract",
-              "description": "",
+              "name": "Render Administrator \nDashboard",
+              "description": "The application renders the administrator dashboard.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -1280,19 +1179,19 @@
               "threats": []
             },
             "labels": [
-              "Call and Execute\nSmart Contract"
+              "Render Administrator \nDashboard"
             ],
-            "id": "f24e7fd5-50b5-4052-a3d3-807408d4d1c9",
+            "id": "5e74655e-3de0-4a47-9495-0780a89856b1",
             "source": {
               "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
             },
             "target": {
-              "cell": "22b888cd-4552-4c61-84da-008d8f13ab46"
+              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
             },
             "vertices": [
               {
-                "x": 1020,
-                "y": 450
+                "x": 650,
+                "y": 390
               }
             ]
           },
@@ -1307,7 +1206,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Student Voter Information"
+                "text": "Election Administrator Information"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -1406,130 +1305,7 @@
             "id": "b1115682-8d37-41cb-a101-c531398cfbb9",
             "data": {
               "type": "tm.Store",
-              "name": "Student Voter Information",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 870,
-              "y": 518
-            },
-            "size": {
-              "width": 180,
-              "height": 90
-            },
-            "attrs": {
-              "text": {
-                "text": "Ethereum Network"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 12,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "b5d7fdd6-9172-4931-8384-7e8e0f501e6b"
-                },
-                {
-                  "group": "right",
-                  "id": "b86f941a-2bed-47e2-b9ff-7ef6cb9be56e"
-                },
-                {
-                  "group": "bottom",
-                  "id": "a77ddf0b-a5a6-482a-9fc9-cee266bac6b4"
-                },
-                {
-                  "group": "left",
-                  "id": "826357e1-ce6c-4205-ac60-ce44a083c56f"
-                }
-              ]
-            },
-            "id": "22b888cd-4552-4c61-84da-008d8f13ab46",
-            "data": {
-              "type": "tm.Store",
-              "name": "Ethereum Network",
+              "name": "Election Administrator Information",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",

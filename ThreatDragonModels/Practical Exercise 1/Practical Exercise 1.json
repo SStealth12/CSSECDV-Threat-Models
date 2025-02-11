@@ -767,8 +767,7 @@
             "id": "c466f5db-0913-4472-b279-7b53211836ed",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "The perimeter firewall",
-              "description": "",
+              "description": "Perimeter Firewall",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -793,8 +792,7 @@
             "id": "61d2e3c2-6b9e-46a3-aa05-d3abc607d879",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "The perimeter firewall",
-              "description": "",
+              "description": "Perimeter Firewall",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }

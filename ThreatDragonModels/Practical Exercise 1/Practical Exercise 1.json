@@ -2231,7 +2231,6 @@
             "id": "5b4a532e-5e01-4e87-ab4d-19fbc21539be",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -2252,7 +2251,6 @@
             "id": "fa85253d-02ff-4d78-8b7b-a2baad5f7ec9",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -2512,13 +2510,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2658,6 +2649,82 @@
             "target": {
               "cell": "1dbc800f-1130-41ff-83a7-664768b4ad7a"
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The web application includes dependencies such as secure password generators",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "86fd4ceb-7684-4cc0-affd-df6b8996744c",
+            "source": {
+              "x": 790,
+              "y": 200
+            },
+            "target": {
+              "x": 790,
+              "y": 490
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The database server trusts calls from the web application's identity.",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "ec2dace8-2cdc-4a91-b837-b2b9ed075bcd",
+            "source": {
+              "x": 860,
+              "y": 100
+            },
+            "target": {
+              "x": 1190,
+              "y": 100
+            },
+            "vertices": [
+              {
+                "x": 1030,
+                "y": 190
+              }
+            ]
           },
           {
             "position": {

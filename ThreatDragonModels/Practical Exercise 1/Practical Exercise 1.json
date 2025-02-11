@@ -3339,48 +3339,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send Transaction",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send Transaction"
-            ],
-            "id": "359894fb-d352-48f4-9833-82e701a24077",
-            "source": {
-              "cell": "ad03e73f-009b-4337-9031-feb811155005"
-            },
-            "target": {
-              "cell": "6214ec9b-f38e-4bbd-86f6-95f00204adce"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Submit Ballot",
               "description": "Voter answers the ballot and submits it.",
               "outOfScope": false,
@@ -3504,6 +3462,48 @@
                 "y": 290
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send Transaction",
+              "description": "The controller sends the transaction to be recorded in the blockchain.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send Transaction"
+            ],
+            "id": "359894fb-d352-48f4-9833-82e701a24077",
+            "source": {
+              "cell": "ad03e73f-009b-4337-9031-feb811155005"
+            },
+            "target": {
+              "cell": "6214ec9b-f38e-4bbd-86f6-95f00204adce"
+            }
           },
           {
             "position": {

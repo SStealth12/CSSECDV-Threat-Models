@@ -3506,6 +3506,82 @@
             }
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The web application includes dependencies such as secure password generators.",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "053c5cf3-959c-4e9d-b4a2-1eed68d191df",
+            "source": {
+              "x": 570,
+              "y": 70
+            },
+            "target": {
+              "x": 580,
+              "y": 420
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The database server trusts calls from the web application's identity.",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "2561f90e-e2ac-4ba9-a3d9-7cb1373eeaab",
+            "source": {
+              "x": 600,
+              "y": 80
+            },
+            "target": {
+              "x": 960,
+              "y": 80
+            },
+            "vertices": [
+              {
+                "x": 770,
+                "y": 130
+              }
+            ]
+          },
+          {
             "position": {
               "x": 680,
               "y": -39.99999999999994

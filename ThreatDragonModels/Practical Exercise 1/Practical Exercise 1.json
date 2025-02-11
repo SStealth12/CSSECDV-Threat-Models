@@ -1270,6 +1270,44 @@
             ]
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The database server trusts calls from the web application's identity.",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "7e64a027-7439-465d-92dd-4bfcbd7c96bb",
+            "source": {
+              "x": 732,
+              "y": 34
+            },
+            "target": {
+              "x": 1220,
+              "y": 40
+            },
+            "vertices": [
+              {
+                "x": 960,
+                "y": 90
+              }
+            ]
+          },
+          {
             "position": {
               "x": 865,
               "y": -60.999999999999915

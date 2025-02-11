@@ -1316,7 +1316,7 @@
             "data": {
               "type": "tm.Boundary",
               "name": "Trust Boundary",
-              "description": "",
+              "description": "The web application includes dependencies such as secure password generators",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
@@ -1329,19 +1329,19 @@
                 }
               }
             ],
-            "id": "e90fbbca-fa83-442f-87b2-cdd660985de0",
+            "id": "1d0cb209-dea1-4ce3-b0b6-2845f0c2f90c",
             "source": {
-              "x": 770,
-              "y": 160
+              "x": 763,
+              "y": 147
             },
             "target": {
               "x": 780,
-              "y": 500
+              "y": 480
             },
             "vertices": [
               {
-                "x": 710,
-                "y": 330
+                "x": 700,
+                "y": 310
               }
             ]
           },

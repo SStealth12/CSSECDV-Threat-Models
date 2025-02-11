@@ -2503,7 +2503,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Node JS Server\nwith RESTFUL API",
-              "description": "",
+              "description": "The application uses password-generator.js from Node.js to generate passwords for voters. It uses jsrsasign.js to create public and private keys for each voter. Administrators can export the credentials, passwords, and keys. The application hashes passwords with PBKDF2withHmacSHA256 and encrypts private keys using password-based encryption.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -2512,6 +2512,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {

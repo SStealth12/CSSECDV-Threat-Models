@@ -1575,8 +1575,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "ef9a6ecb-ad76-4ffa-a0fe-399ebc77e1b3",
             "zIndex": -1,
+            "id": "ef9a6ecb-ad76-4ffa-a0fe-399ebc77e1b3",
             "data": {
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
@@ -1808,7 +1808,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Node.js Server\nwith RESTful API",
-              "description": "",
+              "description": "The application uses password-generator.js from Node.js to generate passwords for voters. It uses jsrsasign.js to create public and private keys for each voter. Administrators can export the credentials, passwords, and keys. The application hashes passwords with PBKDF2withHmacSHA256 and encrypts private keys using password-based encryption.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -1817,6 +1817,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {

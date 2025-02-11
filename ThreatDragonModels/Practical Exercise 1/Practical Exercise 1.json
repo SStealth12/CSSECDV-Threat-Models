@@ -3243,54 +3243,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Submit Ballot",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Submit Ballot"
-            ],
-            "id": "05667ad4-e3e7-4c88-905f-29ffff6ba348",
-            "source": {
-              "cell": "c15c4f56-0168-4f3b-a3b4-1f5c3c05f74b"
-            },
-            "target": {
-              "cell": "ad03e73f-009b-4337-9031-feb811155005"
-            },
-            "vertices": [
-              {
-                "x": 480,
-                "y": 210
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Reauthenticate User",
               "description": "",
               "outOfScope": false,
@@ -3504,6 +3456,54 @@
             "target": {
               "cell": "6214ec9b-f38e-4bbd-86f6-95f00204adce"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Submit Ballot",
+              "description": "Voter answers the ballot and submits it.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Submit Ballot"
+            ],
+            "id": "05667ad4-e3e7-4c88-905f-29ffff6ba348",
+            "source": {
+              "cell": "c15c4f56-0168-4f3b-a3b4-1f5c3c05f74b"
+            },
+            "target": {
+              "cell": "ad03e73f-009b-4337-9031-feb811155005"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 200
+              }
+            ]
           },
           {
             "position": {

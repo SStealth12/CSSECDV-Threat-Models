@@ -1479,6 +1479,46 @@
         "cells": [
           {
             "position": {
+              "x": 110,
+              "y": 167.36458333333354
+            },
+            "size": {
+              "width": 290,
+              "height": 135.9375
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "5cf5f28b-1c36-4168-b10a-c9ec929bc71a",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "description": "Perimeter Firewall\n",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 662,
+              "y": 167.36458333333354
+            },
+            "size": {
+              "width": 290,
+              "height": 135.9375
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "744eb656-d3fb-452f-b12f-1720d40e10b2",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "description": "Perimeter Firewall\n",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "zIndex": -1
+          },
+          {
+            "position": {
               "x": 170,
               "y": 190.00000000000023
             },
@@ -1498,6 +1538,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -1581,7 +1622,6 @@
               ]
             },
             "id": "f1da298f-872c-4636-9584-2ddc2fe6ba4c",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Election Administrator\nWeb Browser",
@@ -1614,6 +1654,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -1697,7 +1738,6 @@
               ]
             },
             "id": "4e88370b-220a-4c83-8eb3-5ef7788033a5",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Node.js Server\nwith RESTful API",
@@ -1893,6 +1933,82 @@
             }
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The web application includes dependencies such as secure password generators",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "97f79ffe-3d29-4e73-88b6-e3abbef03650",
+            "source": {
+              "x": 640,
+              "y": 80
+            },
+            "target": {
+              "x": 640,
+              "y": 380
+            },
+            "vertices": [
+              {
+                "x": 580,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The database server trusts calls from the web application's identity.",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "cbf2299a-afd6-49ae-9973-a1cc1003adf2",
+            "source": {
+              "x": 650,
+              "y": 50
+            },
+            "target": {
+              "x": 980,
+              "y": 60
+            },
+            "vertices": [
+              {
+                "x": 800,
+                "y": 80
+              }
+            ]
+          },
+          {
             "position": {
               "x": 727,
               "y": -60.00000000000002
@@ -1916,6 +2032,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1999,7 +2116,6 @@
               ]
             },
             "id": "8ba8f3a3-e531-4f47-84a7-81a4595d7d20",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Student Voter Information",

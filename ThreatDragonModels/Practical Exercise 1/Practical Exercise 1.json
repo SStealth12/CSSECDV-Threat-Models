@@ -819,6 +819,33 @@
           },
           {
             "position": {
+              "x": 815,
+              "y": -81.46874999999991
+            },
+            "size": {
+              "width": 290,
+              "height": 135.9375
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "25bd1ddd-9f9a-4625-b044-c760862b8fe3",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "description": "Perimeter Firewall",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
               "x": 230,
               "y": 240.66666666666663
             },

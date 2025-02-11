@@ -3164,7 +3164,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Node.js Server \nwith RESTful API",
-              "description": "",
+              "description": "The controller retrieves the encrypted private key and public key of the voter from the database, then decrypts the private key to generate the digital signature. It generates a JSON file from the original ballot submitted by the voter, hashes the ballot to create a message digest, and encrypts the message digest using the voter's private key to create a signed ballot. The signed ballot is then encoded using Base64 format. Finally, the controller forwards the signed ballot, the original ballot, the public key, and the Base64-encoded signed ballot to the election module.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -3173,13 +3173,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {

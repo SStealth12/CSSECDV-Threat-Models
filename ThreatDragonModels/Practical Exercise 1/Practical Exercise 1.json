@@ -3582,6 +3582,44 @@
             ]
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The web application sends transaction to the public Ethereum blockchain network.",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "f09cbe15-1f87-4d94-9d48-0ca650c1dfd5",
+            "source": {
+              "x": 580,
+              "y": 360
+            },
+            "target": {
+              "x": 940,
+              "y": 360
+            },
+            "vertices": [
+              {
+                "x": 760,
+                "y": 320
+              }
+            ]
+          },
+          {
             "position": {
               "x": 680,
               "y": -39.99999999999994

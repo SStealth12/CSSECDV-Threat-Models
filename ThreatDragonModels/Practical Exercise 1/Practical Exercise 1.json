@@ -37,7 +37,6 @@
             "id": "448df2a4-9d48-4a92-a84f-d4dd507a86e9",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
               "description": "Perimeter Firewall",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -63,7 +62,6 @@
             "id": "186c8785-4679-499a-85b5-de09c57994b0",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
               "description": "Perimeter Firewall",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -697,6 +695,44 @@
               {
                 "x": 870,
                 "y": 350
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The web application includes dependencies such as secure password generators.\n",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "68e27a70-38d2-4a0c-8cc3-e4ff11f6bd46",
+            "source": {
+              "x": 690,
+              "y": 360
+            },
+            "target": {
+              "x": 690,
+              "y": 710
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 530
               }
             ]
           }

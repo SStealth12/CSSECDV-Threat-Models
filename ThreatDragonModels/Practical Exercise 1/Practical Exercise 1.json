@@ -1566,6 +1566,26 @@
           },
           {
             "position": {
+              "x": 687,
+              "y": -76.25000000000006
+            },
+            "size": {
+              "width": 240,
+              "height": 112.50000000000006
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "ef9a6ecb-ad76-4ffa-a0fe-399ebc77e1b3",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "description": "Perimeter Firewall",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 170,
               "y": 190.00000000000023
             },

@@ -2871,8 +2871,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "a19e6943-fcf2-4e5e-a15b-ce78970bd367",
             "zIndex": -1,
+            "id": "a19e6943-fcf2-4e5e-a15b-ce78970bd367",
             "data": {
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
@@ -2891,8 +2891,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "013b3aac-75de-4ce2-92e8-37d3b62b2c43",
             "zIndex": -1,
+            "id": "013b3aac-75de-4ce2-92e8-37d3b62b2c43",
             "data": {
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
@@ -2911,8 +2911,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "61e235d1-9e36-4923-ad6a-ac160ed750c5",
             "zIndex": -1,
+            "id": "61e235d1-9e36-4923-ad6a-ac160ed750c5",
             "data": {
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
@@ -2931,14 +2931,14 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
+            "zIndex": -1,
             "id": "505ee955-8db9-4225-8eea-b0f9389740f4",
             "data": {
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "zIndex": -1
+            }
           },
           {
             "position": {
@@ -3196,7 +3196,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "Send Filtered Ballot",
-              "description": "",
+              "description": "The controller sends the filtered ballot to the voter based on their college and batch.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,

@@ -2862,6 +2862,86 @@
         "cells": [
           {
             "position": {
+              "x": 89.99999999999997,
+              "y": 180.78125000000026
+            },
+            "size": {
+              "width": 210,
+              "height": 98.4375
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "a19e6943-fcf2-4e5e-a15b-ce78970bd367",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "description": "Perimeter Firewall",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 632,
+              "y": 404.5
+            },
+            "size": {
+              "width": 256.00000000000006,
+              "height": 120
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "013b3aac-75de-4ce2-92e8-37d3b62b2c43",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "description": "Perimeter Firewall",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 645,
+              "y": -53.90624999999994
+            },
+            "size": {
+              "width": 230,
+              "height": 107.8125
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "61e235d1-9e36-4923-ad6a-ac160ed750c5",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "description": "Perimeter Firewall",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 625,
+              "y": 166.71875000000026
+            },
+            "size": {
+              "width": 270,
+              "height": 126.5625
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "505ee955-8db9-4225-8eea-b0f9389740f4",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "description": "Perimeter Firewall",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "zIndex": -1
+          },
+          {
+            "position": {
               "x": 119.99999999999997,
               "y": 190.00000000000026
             },
@@ -2881,6 +2961,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2964,7 +3045,6 @@
               ]
             },
             "id": "c15c4f56-0168-4f3b-a3b4-1f5c3c05f74b",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Voter Web Browser",
@@ -2997,6 +3077,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -3080,7 +3161,6 @@
               ]
             },
             "id": "ad03e73f-009b-4337-9031-feb811155005",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Node.js Server \nwith RESTful API",
@@ -3449,6 +3529,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -3532,7 +3613,6 @@
               ]
             },
             "id": "83cf1829-4282-4ffc-83e1-cfecab6c3696",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Student Voter Information",
@@ -3572,6 +3652,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -3655,7 +3736,6 @@
               ]
             },
             "id": "6214ec9b-f38e-4bbd-86f6-95f00204adce",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Ethereum Network",

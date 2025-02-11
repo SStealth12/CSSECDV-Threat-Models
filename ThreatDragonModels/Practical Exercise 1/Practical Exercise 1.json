@@ -37,8 +37,8 @@
             "id": "448df2a4-9d48-4a92-a84f-d4dd507a86e9",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "The perimeter firewall",
-              "description": "",
+              "name": "Trust Boundary",
+              "description": "Perimeter Firewall",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -63,8 +63,8 @@
             "id": "186c8785-4679-499a-85b5-de09c57994b0",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "The perimeter firewall.",
-              "description": "",
+              "name": "Trust Boundary",
+              "description": "Perimeter Firewall",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -659,6 +659,44 @@
               {
                 "x": 520,
                 "y": 600
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The database server trusts calls from the web application's identity",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "58eb0914-9b37-4a03-98a8-af13d90d8764",
+            "source": {
+              "x": 580,
+              "y": 280
+            },
+            "target": {
+              "x": 1150,
+              "y": 280
+            },
+            "vertices": [
+              {
+                "x": 870,
+                "y": 350
               }
             ]
           }

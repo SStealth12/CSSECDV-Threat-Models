@@ -19,14 +19,17 @@
         "cells": [
           {
             "position": {
-              "x": 43.75,
-              "y": 461.40625
+              "x": 49.9999999999975,
+              "y": 130.00000000000432
             },
             "size": {
-              "width": 250,
-              "height": 117.18749999999997
+              "width": 1190,
+              "height": 650
             },
             "attrs": {
+              "label": {
+                "text": "Perimeter Firewall"
+              },
               "headerText": {
                 "text": "The perimeter firewall"
               }
@@ -39,52 +42,15 @@
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 720,
-              "y": 449.6875
+              "hasOpenThreats": false,
+              "name": "Perimeter Firewall"
             },
-            "size": {
-              "width": 300,
-              "height": 140.62499999999997
-            },
-            "attrs": {
-              "headerText": {
-                "text": "The perimeter firewall."
-              }
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "186c8785-4679-499a-85b5-de09c57994b0",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "description": "Perimeter Firewall",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 752.6666666666666,
-              "y": 207.5000000000001
-            },
-            "size": {
-              "width": 234.66666666666666,
-              "height": 110
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "875e7e44-00ef-49ff-9b9e-125a1a1f7fa3",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "description": "Perimeter Firewall",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {

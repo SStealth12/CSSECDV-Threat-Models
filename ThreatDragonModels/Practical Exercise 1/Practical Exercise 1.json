@@ -723,7 +723,7 @@
             ]
           }
         ],
-        "description": "This STRIDE Diagram houses Part 1, Scenario 1 of Practical Exercise 1"
+        "description": "This Data Flow Diagram houses Part 1, Scenario 1 of Practical Exercise 1"
       },
       {
         "id": 1,
@@ -1439,7 +1439,7 @@
             }
           }
         ],
-        "description": "This STRIDE Diagram houses Part 1, Scenario 2 of Practical Exercise 1"
+        "description": "This Data Flow Diagram houses Part 1, Scenario 2 of Practical Exercise 1"
       },
       {
         "id": 2,
@@ -2094,7 +2094,7 @@
             }
           }
         ],
-        "description": "This STRIDE Diagram houses Part 1, Scenario 3 of Practical Exercise 1"
+        "description": "This Data Flow Diagram houses Part 1, Scenario 3 of Practical Exercise 1"
       },
       {
         "id": 3,
@@ -2712,7 +2712,7 @@
             }
           }
         ],
-        "description": "This STRIDE Diagram houses Part 1, Scenario 4 of Practical Exercise 1"
+        "description": "This Data Flow Diagram houses Part 1, Scenario 4 of Practical Exercise 1"
       },
       {
         "id": 4,
@@ -3673,7 +3673,7 @@
             }
           }
         ],
-        "description": "This STRIDE Diagram houses Part 1, Scenario 5 of Practical Exercise 1"
+        "description": "This Data Flow Diagram houses Part 1, Scenario 5 of Practical Exercise 1"
       }
     ],
     "diagramTop": 5,

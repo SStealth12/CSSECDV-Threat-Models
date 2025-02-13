@@ -1685,7 +1685,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Election Administrator\nWeb Browser",
-              "description": "",
+              "description": "The web application developed with HTML5, CSS3, JavaScript, and Handlebars will the admin to authenticate themselves as well as cast their votes for the ballot.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -1810,13 +1810,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2186,7 +2179,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Student Voter Information",
-              "description": "",
+              "description": "The application stores all the credentials and information to MongoDB.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -2196,6 +2189,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ],

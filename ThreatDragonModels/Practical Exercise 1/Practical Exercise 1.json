@@ -1790,44 +1790,6 @@
             ]
           },
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "The database server trusts calls from the web application's identity.",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Trust Boundary"
-                  }
-                }
-              }
-            ],
-            "id": "cbf2299a-afd6-49ae-9973-a1cc1003adf2",
-            "source": {
-              "x": 650,
-              "y": 50
-            },
-            "target": {
-              "x": 980,
-              "y": 60
-            },
-            "vertices": [
-              {
-                "x": 800,
-                "y": 80
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1969,6 +1931,44 @@
               "cell": "f1da298f-872c-4636-9584-2ddc2fe6ba4c"
             },
             "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "The database server trusts calls from the web application's identity.",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "cbf2299a-afd6-49ae-9973-a1cc1003adf2",
+            "source": {
+              "x": 650,
+              "y": 50
+            },
+            "target": {
+              "x": 980,
+              "y": 60
+            },
+            "vertices": [
+              {
+                "x": 800,
+                "y": 80
+              }
+            ]
           },
           {
             "position": {

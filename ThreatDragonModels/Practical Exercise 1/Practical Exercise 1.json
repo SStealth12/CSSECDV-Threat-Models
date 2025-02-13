@@ -2378,7 +2378,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
-              "description": "",
+              "description": "The web application developed with HTML5, CSS3, JavaScript, and Handlebars will the admin to authenticate themselves as well as cast their votes for the ballot.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -2830,7 +2830,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Candidate Information",
-              "description": "",
+              "description": "The system writes all the candidates’ information to MongoDB.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -2840,6 +2840,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ],

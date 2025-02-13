@@ -2727,12 +2727,17 @@
         "cells": [
           {
             "position": {
-              "x": 89.99999999999997,
-              "y": 180.78125000000026
+              "x": 79.99999999999875,
+              "y": -119.9999999999975
             },
             "size": {
-              "width": 210,
-              "height": 98.4375
+              "width": 1130,
+              "height": 690
+            },
+            "attrs": {
+              "label": {
+                "text": "Perimeter Firewall"
+              }
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -2742,67 +2747,15 @@
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 632,
-              "y": 404.5
+              "hasOpenThreats": false,
+              "name": "Perimeter Firewall"
             },
-            "size": {
-              "width": 256.00000000000006,
-              "height": 120
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "013b3aac-75de-4ce2-92e8-37d3b62b2c43",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "description": "Perimeter Firewall",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 645,
-              "y": -53.90624999999994
-            },
-            "size": {
-              "width": 230,
-              "height": 107.8125
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "61e235d1-9e36-4923-ad6a-ac160ed750c5",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "description": "Perimeter Firewall",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 625,
-              "y": 166.71875000000026
-            },
-            "size": {
-              "width": 270,
-              "height": 126.5625
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "505ee955-8db9-4225-8eea-b0f9389740f4",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "description": "Perimeter Firewall",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -3728,13 +3681,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ],

@@ -1471,8 +1471,7 @@
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall\n",
               "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "name": "Perimeter Firewall"
+              "hasOpenThreats": false
             }
           },
           {
@@ -1753,48 +1752,6 @@
             }
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Export Credentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Export Credentials"
-            ],
-            "id": "415bc459-e939-416c-8647-35c5b2f49967",
-            "source": {
-              "cell": "4e88370b-220a-4c83-8eb3-5ef7788033a5"
-            },
-            "target": {
-              "cell": "f1da298f-872c-4636-9584-2ddc2fe6ba4c"
-            }
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -1961,10 +1918,57 @@
             },
             "vertices": [
               {
+                "x": 390,
+                "y": 270
+              },
+              {
                 "x": 540,
                 "y": 290
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Export Credentials",
+              "description": "Administrator fills up the voter account creation form after verified credentials",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Export Credentials"
+            ],
+            "id": "415bc459-e939-416c-8647-35c5b2f49967",
+            "source": {
+              "cell": "4e88370b-220a-4c83-8eb3-5ef7788033a5"
+            },
+            "target": {
+              "cell": "f1da298f-872c-4636-9584-2ddc2fe6ba4c"
+            },
+            "vertices": []
           },
           {
             "position": {

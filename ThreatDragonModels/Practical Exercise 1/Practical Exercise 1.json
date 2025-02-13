@@ -78,8 +78,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "875e7e44-00ef-49ff-9b9e-125a1a1f7fa3",
             "zIndex": -1,
+            "id": "875e7e44-00ef-49ff-9b9e-125a1a1f7fa3",
             "data": {
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
@@ -198,7 +198,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Student Voter Information",
-              "description": "",
+              "description": "Prepared beforehand using MongoDB, this database manages student voter information and authenticates the validity of students to cast their votes.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -318,7 +318,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Voter Web Browser",
-              "description": "",
+              "description": "Developed with HTML5, CSS3, JavaScript, and Handlebars, the application allows users to authenticate and cast their votes for the ballot.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -434,7 +434,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Node.js Server \nwith RESTful API",
-              "description": "",
+              "description": "Authenticates student login and voting status, uses Web3.jsto interact with the Ethereum node, requests transactions to the Ethereum network, and adds validated transactions to the blockchain via smart contracts.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,

@@ -2971,102 +2971,6 @@
             }
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Return \nCredentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Return \nCredentials"
-            ],
-            "id": "8cf76205-5f0f-45f5-99ad-9025186d53f8",
-            "source": {
-              "cell": "83cf1829-4282-4ffc-83e1-cfecab6c3696"
-            },
-            "target": {
-              "cell": "ad03e73f-009b-4337-9031-feb811155005"
-            },
-            "vertices": [
-              {
-                "x": 820,
-                "y": 110
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Retrieve \nCredentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Retrieve \nCredentials"
-            ],
-            "id": "43fffce0-c820-44d7-98b4-ef923efd81e0",
-            "source": {
-              "cell": "ad03e73f-009b-4337-9031-feb811155005"
-            },
-            "target": {
-              "cell": "83cf1829-4282-4ffc-83e1-cfecab6c3696"
-            },
-            "vertices": [
-              {
-                "x": 710,
-                "y": 110
-              }
-            ]
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -3413,6 +3317,102 @@
             "target": {
               "cell": "6214ec9b-f38e-4bbd-86f6-95f00204adce"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Retrieve \nCredentials",
+              "description": "Retrieves the necessary credentials associated with the Student Voter Ethereum account for secure voting transactions",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Retrieve \nCredentials"
+            ],
+            "id": "43fffce0-c820-44d7-98b4-ef923efd81e0",
+            "source": {
+              "cell": "ad03e73f-009b-4337-9031-feb811155005"
+            },
+            "target": {
+              "cell": "83cf1829-4282-4ffc-83e1-cfecab6c3696"
+            },
+            "vertices": [
+              {
+                "x": 710,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return \nCredentials",
+              "description": "Returns the necessary credentials associated with the Student Voter Ethereum account for secure voting transactions.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Return \nCredentials"
+            ],
+            "id": "8cf76205-5f0f-45f5-99ad-9025186d53f8",
+            "source": {
+              "cell": "83cf1829-4282-4ffc-83e1-cfecab6c3696"
+            },
+            "target": {
+              "cell": "ad03e73f-009b-4337-9031-feb811155005"
+            },
+            "vertices": [
+              {
+                "x": 820,
+                "y": 110
+              }
+            ]
           },
           {
             "position": {

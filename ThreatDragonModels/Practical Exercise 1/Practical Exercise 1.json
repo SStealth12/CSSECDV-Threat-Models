@@ -1473,13 +1473,6 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "name": "Perimeter Firewall"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1737,54 +1730,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Create Single \nVoter Account",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Create Single \nVoter Account"
-            ],
-            "id": "ea33b55e-312b-4b17-8751-06a63623370f",
-            "source": {
-              "cell": "f1da298f-872c-4636-9584-2ddc2fe6ba4c"
-            },
-            "target": {
-              "cell": "4e88370b-220a-4c83-8eb3-5ef7788033a5"
-            },
-            "vertices": [
-              {
-                "x": 540,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Load Batch \nVoter Information",
               "description": "",
               "outOfScope": false,
@@ -1970,6 +1915,54 @@
               {
                 "x": 800,
                 "y": 80
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Create Single \nVoter Account",
+              "description": "The administrator intends to create a single voter account.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Create Single \nVoter Account"
+            ],
+            "id": "ea33b55e-312b-4b17-8751-06a63623370f",
+            "source": {
+              "cell": "f1da298f-872c-4636-9584-2ddc2fe6ba4c"
+            },
+            "target": {
+              "cell": "4e88370b-220a-4c83-8eb3-5ef7788033a5"
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 180
               }
             ]
           },

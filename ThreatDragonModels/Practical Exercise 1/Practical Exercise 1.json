@@ -7,7 +7,14 @@
     "id": 0
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Miguel Francis M. Estañol"
+      },
+      {
+        "name": "Christian A. Dela Peña"
+      }
+    ],
     "diagrams": [
       {
         "id": 0,

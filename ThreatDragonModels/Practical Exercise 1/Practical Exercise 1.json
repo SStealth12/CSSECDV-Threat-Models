@@ -727,8 +727,8 @@
         "cells": [
           {
             "position": {
-              "x": 159.9999999999983,
-              "y": -139.60416666666336
+              "x": 160,
+              "y": -140
             },
             "size": {
               "width": 1110,
@@ -750,15 +750,7 @@
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
               "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "name": "Perimeter Firewall"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
+              "hasOpenThreats": false
             }
           },
           {
@@ -997,241 +989,6 @@
             }
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Admin Login",
-              "description": "The administrator logs in to the system.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Admin Login"
-            ],
-            "id": "8026a46f-33b1-464a-925d-a056e5517d0c",
-            "source": {
-              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
-            },
-            "target": {
-              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
-            },
-            "vertices": [
-              {
-                "x": 650,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Invalid Admin Credentials",
-              "description": "If the administrator’s login credentials are invalid, display an error message",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Invalid Admin Credentials"
-            ],
-            "id": "a034ae5d-5cd8-45ba-b3e5-545951126d1f",
-            "source": {
-              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
-            },
-            "target": {
-              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Return Credentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Return Credentials"
-            ],
-            "id": "c7b95f10-7eb4-487a-91b8-6c7b58204a33",
-            "source": {
-              "cell": "b1115682-8d37-41cb-a101-c531398cfbb9"
-            },
-            "target": {
-              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
-            },
-            "vertices": [
-              {
-                "x": 1030,
-                "y": 130
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Election Administrator\nEthereum Account",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Election Administrator\nEthereum Account"
-            ],
-            "id": "a98fb030-c35c-45dc-8fb4-5bf6b1798e4a",
-            "source": {
-              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
-            },
-            "target": {
-              "cell": "b1115682-8d37-41cb-a101-c531398cfbb9"
-            },
-            "vertices": [
-              {
-                "x": 870,
-                "y": 130
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Render Administrator \nDashboard",
-              "description": "The application renders the administrator dashboard.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Render Administrator \nDashboard"
-            ],
-            "id": "5e74655e-3de0-4a47-9495-0780a89856b1",
-            "source": {
-              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
-            },
-            "target": {
-              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
-            },
-            "vertices": [
-              {
-                "x": 650,
-                "y": 390
-              }
-            ]
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -1304,6 +1061,241 @@
               {
                 "x": 700,
                 "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin Login",
+              "description": "The administrator logs in to the system.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Admin Login"
+            ],
+            "id": "8026a46f-33b1-464a-925d-a056e5517d0c",
+            "source": {
+              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
+            },
+            "target": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Render Administrator \nDashboard",
+              "description": "The application renders the administrator dashboard.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Render Administrator \nDashboard"
+            ],
+            "id": "5e74655e-3de0-4a47-9495-0780a89856b1",
+            "source": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "target": {
+              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Invalid Admin Credentials",
+              "description": "If the administrator’s login credentials are invalid, display an error message",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Invalid Admin Credentials"
+            ],
+            "id": "a034ae5d-5cd8-45ba-b3e5-545951126d1f",
+            "source": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "target": {
+              "cell": "365f2e5a-cdf4-4666-90c9-98e17a79677d"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Election Administrator\nEthereum Account",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Election Administrator\nEthereum Account"
+            ],
+            "id": "a98fb030-c35c-45dc-8fb4-5bf6b1798e4a",
+            "source": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "target": {
+              "cell": "b1115682-8d37-41cb-a101-c531398cfbb9"
+            },
+            "vertices": [
+              {
+                "x": 870,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return Credentials",
+              "description": "Retrieves and returns necessary credentials related to the Election Administrator Ethereum account for secure management and oversight of voting transactions.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Return Credentials"
+            ],
+            "id": "c7b95f10-7eb4-487a-91b8-6c7b58204a33",
+            "source": {
+              "cell": "b1115682-8d37-41cb-a101-c531398cfbb9"
+            },
+            "target": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "vertices": [
+              {
+                "x": 1030,
+                "y": 130
               }
             ]
           },

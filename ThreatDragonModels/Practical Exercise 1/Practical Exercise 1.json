@@ -1223,54 +1223,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Return Credentials",
-              "description": "Retrieves and returns necessary credentials related to the Election Administrator Ethereum account for secure management and oversight of voting transactions.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Return Credentials"
-            ],
-            "id": "c7b95f10-7eb4-487a-91b8-6c7b58204a33",
-            "source": {
-              "cell": "b1115682-8d37-41cb-a101-c531398cfbb9"
-            },
-            "target": {
-              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
-            },
-            "vertices": [
-              {
-                "x": 1030,
-                "y": 130
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Election Administrator\nEthereum Account",
               "description": "A unique account on the Ethereum network designated for the election administrator, used to manage, oversee, and validate voting transactions and activities.",
               "outOfScope": false,
@@ -1295,6 +1247,54 @@
             "vertices": [
               {
                 "x": 870,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return Credentials",
+              "description": "Retrieves and returns necessary credentials related to the Election Administrator Ethereum account for secure management and oversight of voting transactions.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Return Credentials"
+            ],
+            "id": "c7b95f10-7eb4-487a-91b8-6c7b58204a33",
+            "source": {
+              "cell": "b1115682-8d37-41cb-a101-c531398cfbb9"
+            },
+            "target": {
+              "cell": "8c49d936-0a3a-4763-8995-de29b605d509"
+            },
+            "vertices": [
+              {
+                "x": 1030,
                 "y": 130
               }
             ]

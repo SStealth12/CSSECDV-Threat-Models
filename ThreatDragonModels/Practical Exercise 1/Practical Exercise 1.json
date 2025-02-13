@@ -2116,15 +2116,6 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "name": "Perimeter Firewall"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2459,48 +2450,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": " Write Candidate \nInformantion",
-              "description": "The system writes all the candidates’ information to MongoDB",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              " Write Candidate \nInformantion"
-            ],
-            "id": "406a2572-31a7-405b-b102-68a5e9862027",
-            "source": {
-              "cell": "515cf6ff-041a-4944-8ce1-3f2fbd57ef85"
-            },
-            "target": {
-              "cell": "1dbc800f-1130-41ff-83a7-664768b4ad7a"
-            }
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -2575,6 +2524,48 @@
                 "y": 190
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": " Write Candidate \nInformantion",
+              "description": "The system writes all the candidates’ information to MongoDB",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              " Write Candidate \nInformantion"
+            ],
+            "id": "406a2572-31a7-405b-b102-68a5e9862027",
+            "source": {
+              "cell": "515cf6ff-041a-4944-8ce1-3f2fbd57ef85"
+            },
+            "target": {
+              "cell": "1dbc800f-1130-41ff-83a7-664768b4ad7a"
+            }
           },
           {
             "position": {

@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 49.9999999999975,
-              "y": 130.00000000000432
+              "x": 50,
+              "y": 140
             },
             "size": {
               "width": 1190,
@@ -42,15 +42,7 @@
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
               "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "name": "Perimeter Firewall"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
+              "hasOpenThreats": false
             }
           },
           {
@@ -431,102 +423,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Return Credentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Return Credentials"
-            ],
-            "id": "628aa751-908d-408f-bb0b-56f8e48495b7",
-            "source": {
-              "cell": "f4e59f10-3b95-48d6-8c4d-30a8f9c3798c"
-            },
-            "target": {
-              "cell": "270a201c-0c24-42d5-b3e7-baba9bc665d3"
-            },
-            "vertices": [
-              {
-                "x": 930,
-                "y": 380
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Student Voter \nEthereum Account",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Student Voter \nEthereum Account"
-            ],
-            "id": "cfc3a696-95d6-48e3-a664-c6699714c21d",
-            "source": {
-              "cell": "270a201c-0c24-42d5-b3e7-baba9bc665d3"
-            },
-            "target": {
-              "cell": "f4e59f10-3b95-48d6-8c4d-30a8f9c3798c"
-            },
-            "vertices": [
-              {
-                "x": 800,
-                "y": 380
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Login",
               "description": "The voter logs in to the system using the credentials provided by the election administrator.",
               "outOfScope": false,
@@ -719,6 +615,102 @@
               {
                 "x": 630,
                 "y": 530
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Student Voter \nEthereum Account",
+              "description": "A unique account on the Ethereum network assigned to each student voter, used to securely manage and record their voting transactions.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Student Voter \nEthereum Account"
+            ],
+            "id": "cfc3a696-95d6-48e3-a664-c6699714c21d",
+            "source": {
+              "cell": "270a201c-0c24-42d5-b3e7-baba9bc665d3"
+            },
+            "target": {
+              "cell": "f4e59f10-3b95-48d6-8c4d-30a8f9c3798c"
+            },
+            "vertices": [
+              {
+                "x": 800,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return Credentials",
+              "description": "Retrieves and returns the necessary credentials associated with the Student Voter Ethereum account for secure voting transactions.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Return Credentials"
+            ],
+            "id": "628aa751-908d-408f-bb0b-56f8e48495b7",
+            "source": {
+              "cell": "f4e59f10-3b95-48d6-8c4d-30a8f9c3798c"
+            },
+            "target": {
+              "cell": "270a201c-0c24-42d5-b3e7-baba9bc665d3"
+            },
+            "vertices": [
+              {
+                "x": 930,
+                "y": 380
               }
             ]
           }

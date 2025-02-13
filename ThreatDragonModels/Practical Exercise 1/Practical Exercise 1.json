@@ -1694,48 +1694,6 @@
             }
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Store all Credentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Store all Credentials"
-            ],
-            "id": "1a8734a5-b15d-4c87-ab81-0df5a87606ad",
-            "source": {
-              "cell": "4e88370b-220a-4c83-8eb3-5ef7788033a5"
-            },
-            "target": {
-              "cell": "8ba8f3a3-e531-4f47-84a7-81a4595d7d20"
-            }
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -1770,54 +1728,6 @@
               {
                 "x": 580,
                 "y": 220
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Create Single \nVoter Account",
-              "description": "The administrator intends to create a single voter account.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Create Single \nVoter Account"
-            ],
-            "id": "ea33b55e-312b-4b17-8751-06a63623370f",
-            "source": {
-              "cell": "f1da298f-872c-4636-9584-2ddc2fe6ba4c"
-            },
-            "target": {
-              "cell": "4e88370b-220a-4c83-8eb3-5ef7788033a5"
-            },
-            "vertices": [
-              {
-                "x": 540,
-                "y": 180
               }
             ]
           },
@@ -1953,6 +1863,100 @@
                 "y": 80
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Create Single \nVoter Account",
+              "description": "The administrator intends to create a single voter account.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Create Single \nVoter Account"
+            ],
+            "id": "ea33b55e-312b-4b17-8751-06a63623370f",
+            "source": {
+              "cell": "f1da298f-872c-4636-9584-2ddc2fe6ba4c"
+            },
+            "target": {
+              "cell": "4e88370b-220a-4c83-8eb3-5ef7788033a5"
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 200
+              },
+              {
+                "x": 540,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store all Credentials",
+              "description": "The application stores all the credentials and information to MongoDB.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Store all Credentials"
+            ],
+            "id": "1a8734a5-b15d-4c87-ab81-0df5a87606ad",
+            "source": {
+              "cell": "4e88370b-220a-4c83-8eb3-5ef7788033a5"
+            },
+            "target": {
+              "cell": "8ba8f3a3-e531-4f47-84a7-81a4595d7d20"
+            }
           },
           {
             "position": {

@@ -828,20 +828,13 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "25bd1ddd-9f9a-4625-b044-c760862b8fe3",
             "zIndex": -1,
+            "id": "25bd1ddd-9f9a-4625-b044-c760862b8fe3",
             "data": {
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -952,7 +945,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Election Administrator\nWeb Browser",
-              "description": "",
+              "description": "The web application developed with HTML5, CSS3, JavaScript, and Handlebars will the admin to authenticate themselves as well as cast their votes for the ballot.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -1068,7 +1061,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Node.js Server \nwith RESTful API",
-              "description": "",
+              "description": "Authenticates student login and voting status, uses Web3.jsto interact with the Ethereum node, requests transactions to the Ethereum network, and adds validated transactions to the blockchain via smart contracts.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -1501,7 +1494,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Election Administrator Information",
-              "description": "",
+              "description": "Prepared beforehand using MongoDB, this database manages administrator information.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,

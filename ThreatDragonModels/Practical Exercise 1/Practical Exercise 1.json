@@ -2109,12 +2109,17 @@
         "cells": [
           {
             "position": {
-              "x": 77.66666666666667,
-              "y": 285.0000000000001
+              "x": 89.99999999999807,
+              "y": -149.99999999999622
             },
             "size": {
-              "width": 234.66666666666666,
-              "height": 110
+              "width": 1180,
+              "height": 710
+            },
+            "attrs": {
+              "label": {
+                "text": "Perimeter Firewall"
+              }
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -2122,50 +2127,19 @@
             "id": "5b4a532e-5e01-4e87-ab4d-19fbc21539be",
             "data": {
               "type": "tm.BoundaryBox",
-              "description": "",
+              "description": "Perimeter Firewall",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 820,
-              "y": 228.90625
+              "hasOpenThreats": false,
+              "name": "Perimeter Firewall"
             },
-            "size": {
-              "width": 410,
-              "height": 192.1875
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "fa85253d-02ff-4d78-8b7b-a2baad5f7ec9",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 905,
-              "y": -71.75
-            },
-            "size": {
-              "width": 240,
-              "height": 112.5
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "aa2fa0fd-68ad-4056-ab61-bed7af7545a9",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2738,13 +2712,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ],

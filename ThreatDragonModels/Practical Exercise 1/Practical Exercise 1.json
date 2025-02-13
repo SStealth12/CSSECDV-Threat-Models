@@ -3048,7 +3048,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Voter Web Browser",
-              "description": "",
+              "description": "The web application developed with HTML5, CSS3, JavaScript, and Handlebars will allow its users to authenticate themselves as well as cast their votes for the ballot.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -3730,7 +3730,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Student Voter Information",
-              "description": "",
+              "description": "Prepared beforehand using MongoDB, this database manages student voter information and authenticates the validity of students to cast their votes.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -3853,7 +3853,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Ethereum Network",
-              "description": "",
+              "description": "Facilitates transaction requests from the web application, validates transactions via smart contracts, and updates the transaction status, which is then reflected in the web application interface.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -3863,6 +3863,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ],

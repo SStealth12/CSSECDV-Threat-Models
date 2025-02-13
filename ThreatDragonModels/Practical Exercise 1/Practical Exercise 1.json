@@ -1451,12 +1451,17 @@
         "cells": [
           {
             "position": {
-              "x": 110,
-              "y": 167.36458333333354
+              "x": 109.99999999999864,
+              "y": -152.63541666666362
             },
             "size": {
-              "width": 290,
-              "height": 135.9375
+              "width": 970,
+              "height": 570
+            },
+            "attrs": {
+              "label": {
+                "text": "Perimeter Firewall"
+              }
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -1466,47 +1471,15 @@
               "type": "tm.BoundaryBox",
               "description": "Perimeter Firewall\n",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 662,
-              "y": 167.36458333333354
+              "hasOpenThreats": false,
+              "name": "Perimeter Firewall"
             },
-            "size": {
-              "width": 290,
-              "height": 135.9375
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "744eb656-d3fb-452f-b12f-1720d40e10b2",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "description": "Perimeter Firewall\n",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 687,
-              "y": -76.25000000000006
-            },
-            "size": {
-              "width": 240,
-              "height": 112.50000000000006
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "ef9a6ecb-ad76-4ffa-a0fe-399ebc77e1b3",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "description": "Perimeter Firewall",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2121,13 +2094,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ],
